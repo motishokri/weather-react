@@ -1,0 +1,98 @@
+.Weather {
+  padding: 20px;
+
+  border-radius: 2px;
+}
+
+.Weather .overview {
+  margin-bottom: 20px;
+}
+
+.Weather .weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.Weather .weather-temperature strong {
+  color: green;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.Weather .weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.Weather .weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.Weather .weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.Weather .weather-forecast {
+  margin-top: 10px;
+}
+
+.Weather .weather-forecast h3 {
+  color: rgb(186, 186, 186);
+  height: 15px;
+  line-height: 15px;
+  padding-top: 7px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.Weather .weather-forecast img {
+  display: block;
+  margin: 0 auto;
+  height: 48px;
+  width: 48px;
+}
+
+.Weather .weather-forecast-temperature {
+  text-align: center;
+  color: rgb(135, 135, 135);
+  line-height: 15px;
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: 400;
+  height: auto;
+}
+
+h1 {
+  margin-left: 190px;
+  margin-top: 30px;
+}
+
+h2 {
+  margin-left: 150px;
+  margin-top: 50px;
+  color: green;
+}
+
+input {
+  margin-left: 170px;
+  margin-top: 50px;
+}
+
+button {
+  background-color: green;
+  color: white;
+}
+ul {
+  margin-left: 120px;
+  margin-top: 10px;
+}
+
+.icon {
+  margin-left: 400px;
+  margin-top: -100px;
+}
